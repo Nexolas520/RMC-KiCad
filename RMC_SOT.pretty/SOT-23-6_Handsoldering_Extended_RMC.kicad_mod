@@ -1,0 +1,263 @@
+(footprint "SOT-23-6_Handsoldering_Extended_RMC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "6-pin SOT-23 package, Handsoldering")
+	(tags "SOT-23-6 Handsoldering")
+	(property "Reference" "U9"
+		(at 0 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "51b1e6c8-ffac-45a7-8bb0-96a0638eab2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MT3608/SDB628"
+		(at 0 2.9 0)
+		(layer "F.Fab")
+		(uuid "11e2d337-7569-4f6d-bcca-b01b09c238bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SOT-23-6_Handsoldering_Extended_RMC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9929d18f-0309-4fcf-b65b-d63912b265a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11df0d51-4c29-4abd-bd75-67df01f3a175")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2f58817-2b12-416a-a7de-6d5c2915e708")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 1.61)
+		(end 0.9 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96a8f41f-77bb-4e0f-b804-91a45d95fc32")
+	)
+	(fp_line
+		(start 0.1 -1.61)
+		(end -0.7 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3fdb149c-d10a-4970-97e3-eef890be9bd0")
+	)
+	(fp_line
+		(start 0.1 -1.61)
+		(end 0.9 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb05ee17-126d-4cdd-b587-3d99da3ef0e3")
+	)
+	(fp_poly
+		(pts
+			(xy -2 -1.56) (xy -2.24 -1.89) (xy -1.76 -1.89) (xy -2 -1.56)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "134baebd-b0bf-4e83-ad69-10f79c205d09")
+	)
+	(fp_line
+		(start -3.25 -1.8)
+		(end 3.25 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aad5a1f7-668d-438e-b86b-36b80fdbe1d2")
+	)
+	(fp_line
+		(start -3.25 1.8)
+		(end -3.25 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38389907-eb23-4527-bd2e-a9485fc57970")
+	)
+	(fp_line
+		(start 3.25 -1.8)
+		(end 3.25 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff7fb5bb-5678-46f8-aad8-166c991a3abe")
+	)
+	(fp_line
+		(start 3.25 1.8)
+		(end -3.25 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f4f3704-58ad-4914-b4ad-54c0c0c54c4c")
+	)
+	(fp_line
+		(start -0.9 -0.9)
+		(end -0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3555dea-2d16-4e77-afb5-9b7e1367b78d")
+	)
+	(fp_line
+		(start -0.9 -0.9)
+		(end -0.25 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cabf3d9a-c8bb-4acf-93ba-396b11d5f748")
+	)
+	(fp_line
+		(start 0.9 -1.55)
+		(end -0.25 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84d9746e-42f0-4a17-b846-752ff3857a41")
+	)
+	(fp_line
+		(start 0.9 -1.55)
+		(end 0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d4d2cdf-7d3d-4509-8ec3-de38574d54d3")
+	)
+	(fp_line
+		(start 0.9 1.55)
+		(end -0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31ebfed2-4f4a-41f7-b50c-ff847d5d51aa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "982bb9df-b5d6-4b94-82dc-13587f454521")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.785 -0.95)
+		(size 2.43 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f87c307d-e0a6-48a7-a594-5e098a40aed0")
+	)
+	(pad "2" smd roundrect
+		(at -1.785 0)
+		(size 2.43 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "7dd4f28a-e0ff-4cd8-849a-d330d5c6e407")
+	)
+	(pad "3" smd roundrect
+		(at -1.785 0.95)
+		(size 2.43 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "fea17604-f44d-499b-b004-bdc2a773fe79")
+	)
+	(pad "4" smd roundrect
+		(at 1.785 0.95)
+		(size 2.43 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "06b4c1ad-174d-46a5-b4ed-a7e2d863d0b5")
+	)
+	(pad "5" smd roundrect
+		(at 1.785 0)
+		(size 2.43 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "264d927c-250e-445d-940a-417738d7d8e7")
+	)
+	(pad "6" smd roundrect
+		(at 1.785 -0.95)
+		(size 2.43 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "873970f4-fbd5-43b2-8ea1-049479b182ee")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
