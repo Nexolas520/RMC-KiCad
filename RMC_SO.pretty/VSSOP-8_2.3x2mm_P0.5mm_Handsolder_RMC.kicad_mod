@@ -1,0 +1,259 @@
+(footprint "VSSOP-8_2.3x2mm_P0.5mm_Handsolder_RMC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "VSSOP-8 2.3x2mm Pitch 0.5mm")
+	(tags "VSSOP-8 2.3x2mm Pitch 0.5mm")
+	(property "Reference" "U7"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "0445a30c-876f-4f89-9164-fec446c87a42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TXS0102DCU"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "848c0f07-44b9-480b-8abf-488a289666ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "VSSOP-8_2.3x2mm_P0.5mm_Handsolder_RMC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23862073-4ff9-4f9f-9234-7f6b5680ba28")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/gpn/txs0102"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ecc67fb-27cb-4997-afe6-f91347753ba3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, VSSOP-8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2404783-5496-4d62-be7c-90d8c88871b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.1 -1.1)
+		(end -1.1 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6303d4ea-2e4c-49de-803f-b40619ca8dfc")
+	)
+	(fp_line
+		(start 1.1 1.1)
+		(end -1.1 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0391f0e7-7da6-411b-8444-159016fd9d1b")
+	)
+	(fp_poly
+		(pts
+			(xy -3.9 -0.65) (xy -3.75 -0.75) (xy -3.9 -0.85)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1f9a7d0f-43c9-49ad-9a24-bb07e687f51d")
+	)
+	(fp_line
+		(start -4 -1.25)
+		(end 4 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b6bcfce-63a1-404b-9c40-e7fbe51c77c2")
+	)
+	(fp_line
+		(start -4 1.25)
+		(end -4 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91c72516-7854-4c30-94b3-e926482f1fd4")
+	)
+	(fp_line
+		(start 4 -1.25)
+		(end 4 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a57e0e3-fceb-4469-83c2-5061344a8211")
+	)
+	(fp_line
+		(start 4 1.25)
+		(end -4 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d4a8f49-4934-4056-9bc9-c032e3cd600e")
+	)
+	(fp_line
+		(start -1.15 1)
+		(end -1.15 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "461bf9c5-1e63-43d5-9447-94c66836a1b0")
+	)
+	(fp_line
+		(start -0.6 -1)
+		(end -1.15 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc2cf415-808d-4197-b3bb-715610d3f84f")
+	)
+	(fp_line
+		(start -0.6 -1)
+		(end 1.15 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58f8eb48-02cd-47ae-9735-483061ae782d")
+	)
+	(fp_line
+		(start 1.15 -1)
+		(end 1.15 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9eafe06d-b097-4b94-b1c8-d8f38acddb21")
+	)
+	(fp_line
+		(start 1.15 1)
+		(end -1.15 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8da73d6e-26a9-48af-afd5-1390640e6946")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f06f3faf-70f9-4968-95bb-f579035702fb")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.325 -0.75 270)
+		(size 0.3 2.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f50efcc0-cd0c-4005-ae0d-e4e73d8062c9")
+	)
+	(pad "2" smd rect
+		(at -2.325 -0.25 270)
+		(size 0.3 2.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "602647f7-31bd-4c6d-bbab-e6a1e3476264")
+	)
+	(pad "3" smd rect
+		(at -2.325 0.25 270)
+		(size 0.3 2.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e5cc9d6f-427a-4901-8c70-a372dca2786e")
+	)
+	(pad "4" smd rect
+		(at -2.325 0.75 270)
+		(size 0.3 2.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "792c0b49-f14d-4354-b632-1ccea53fe17e")
+	)
+	(pad "5" smd rect
+		(at 2.325 0.75 270)
+		(size 0.3 2.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2a2a233d-ba05-4ec0-a7a8-3ee20def0365")
+	)
+	(pad "6" smd rect
+		(at 2.325 0.25 270)
+		(size 0.3 2.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9c840d63-d27a-40cb-863f-50fa203865d4")
+	)
+	(pad "7" smd rect
+		(at 2.325 -0.25 270)
+		(size 0.3 2.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ffacdd56-2d67-4ec8-8906-abfd5d525412")
+	)
+	(pad "8" smd rect
+		(at 2.325 -0.75 270)
+		(size 0.3 2.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "257685c8-0062-4887-ab82-99e4a90a11a2")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/VSSOP-8_2.3x2mm_P0.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
