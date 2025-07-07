@@ -7,7 +7,7 @@
   (property "ki_description" "Light emitting diode")
   (property "ki_keywords" "LED diode")
   (attr smd)
-  (fp_text reference "D4" (at 5.3 0.403201 -180) (layer "F.SilkS")
+  (fp_text reference "D4" (at 0 -1.6 -180) (layer "F.SilkS")
       (effects (font (size 0.8 0.8) (thickness 0.15)))
     (tstamp 2eea4b87-dee0-4852-9689-7dca2b77fd57)
   )
