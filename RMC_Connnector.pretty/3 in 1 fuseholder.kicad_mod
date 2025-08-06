@@ -51,4 +51,9 @@
   (pad "1" thru_hole oval (at -7 2) (size 2.8 1.8) (drill oval 1.8 0.8) (layers "*.Cu" "*.Mask") (tstamp 8d80520f-3aa3-4415-becf-201051324bad))
   (pad "2" thru_hole oval (at 7 -2) (size 2.8 1.8) (drill oval 1.8 0.8) (layers "*.Cu" "*.Mask") (tstamp 62ef9ff7-e286-4d4c-9dc1-b04947e99f97))
   (pad "2" thru_hole oval (at 7 2) (size 2.8 1.8) (drill oval 1.8 0.8) (layers "*.Cu" "*.Mask") (tstamp 277aedbb-0f1a-4b66-a13d-1da7eee3f271))
+  (model ":RMC_FOOTPRINT:Universal Car Fuse Holder PCB v1.step"
+    (offset (xyz -10 3.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )

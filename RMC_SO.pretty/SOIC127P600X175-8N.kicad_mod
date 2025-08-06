@@ -53,4 +53,9 @@
     (solder_mask_margin 0.102) (tstamp cd623a75-eb2a-4d9a-a95f-f0190fb6a7bc))
   (pad "8" smd roundrect (at 2.855 -1.905) (size 2.29 0.59) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.07)
     (solder_mask_margin 0.102) (tstamp c167e59a-17ef-4e53-a99e-c5207f195dc5))
+  (model ":KICAD7_3DMODEL_DIR:Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
