@@ -83,4 +83,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "G:/Documents/GitHub/RMC-KiCad/RMC.3dshapes/infineon-pg-tdson-8-3-3d-01-stp-package-en.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
