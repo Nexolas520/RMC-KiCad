@@ -28,4 +28,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
+  (model "G:/Documents/GitHub/RMC_PCB/_lib_rmc/RMC_LED.pretty/LED_3228.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
